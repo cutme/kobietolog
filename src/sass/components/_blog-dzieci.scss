@@ -1,0 +1,60 @@
+/****************************************************************************************/
+/* Blog DZIECI | kolor główny: #f16825 #dzieci*/
+#dzieci a, #dzieci a:hover {color:#f16825;}
+#dzieci #content .post .post_headline h2 {color:#f16825;}
+#dzieci #content .post .post_headline h2 a {color:#000000;}
+#dzieci #content .post .post_headline h2 a:hover {background-color:#f16825; color:#FFF;}
+#dzieci #content .post .post_inner {background-color:#FFF; border-bottom:3px solid #D8D8D8;}
+#dzieci #content .post .post_inner a {color:#f16825;}
+#dzieci #content .post .post_inner a:hover {background-color:#f16825; color:#FFF;}
+/*
+#dzieci #content .post .post_inner .read_more a {color:#fff;}
+#dzieci #content .post .post_inner .read_more a:hover {color:#fff;}
+*/
+ /*kolorystyka tekstu linku nizej posta*/
+#dzieci #content .post .post_inner span.ib a:hover, #dzieci #content .post .post_inner p.author a:hover {background-color:#f16825; color:#fff;}  /*kolorystyka tekstu linku wyzej posta*/ 
+#dzieci #content .post .post_inner .read_more a {background:#f16825 url('../img/arrows.gif') 92% 52% no-repeat; color:#FFF;} /*link czytaj wiecej*/
+#dzieci #sidebar .side_box .side_box_inner ul.popular li a strong {color:#f16825;}
+#dzieci #sidebar .side_box .side_box_inner ul.popular li a:hover strong {background-color:#f16825; color:#FFF;} /*tagi*/
+#dzieci #sidebar .side_box .side_box_inner ul.tags li a:hover {background-color:#f16825; color:#FFF;}
+#dzieci #sidebar .side_box .side_box_inner .comment_area a:hover {background-color:#f16825; color:#FFF;}
+
+#dzieci #content .post .post_inner .post_meta .categories span.cr a:hover {color:#f16825; background-color:#fff; text-decoration:none;}
+
+#dzieci #content .post_links a:hover, #dzieci #content .post_links2 a:hover {background-color:#f16825; color:#FFF;}
+#dzieci #content .single_comment a:hover {background-color:#f16825; color:#FFF;}	/*linki w komentarzach*/
+
+#dzieci #sidebar .side_box .newsletter form .button {background:#f16825;} 	/*newsletter zapisz sie button*/
+#dzieci #extra .ideas_top form .button {background:#f16825;} /*szukaj button*/
+#dzieci #content .comment_form form .button .bordered {border-color:#f16825; background-color:#f16825; color:#FFF;} /*button dodaj komentarz*/
+#dzieci #sidebar .side_box .newsletter h3 {color:#f16825;} /*napis newsletter*/
+
+#dzieci .navigation li.current a { color:#f16825; } /*wybrany link aktywnej strony*/
+#dzieci #item_3 {background-position:-435px 0;} /*obrazek kobiety dolaczony do linku*/
+#dzieci .headerh a {text-indent:-9999px; background:url('../img/blogloga.png') 0 -283px no-repeat;} /*logo dolaczone do linku*/
+#dzieci .illustration_area {background:url('../img/girls.png') -435px 0  no-repeat; display:block; height:185px; width:145px; position:absolute; bottom:39px; left:0;} /*obrazek dolaczony do linku*/
+
+#dzieci #header form .button {border:1px solid #f16825; background:#f16825 url('../img/button_bg_dzieci.gif') 0 0 repeat-x; } /*button szukaj*/
+
+#dzieci #related_posts a.previous {background-image:url('../img/previous_icon_dzieci.gif'); left:12px;} 
+#dzieci #related_posts a.next     {background-image:url('../img/next_icon_dzieci.gif'); right:12px;}    /*slider strzalki*/
+#dzieci #footer ul li a {color:#f16825;} /*stopka kolory linkow*/
+
+/*
+#dzieci #content .pagination ul li a {
+	border:4px solid #ccc;
+	//height:20px;
+}
+*/
+#dzieci #content .pagination ul li.current a, #dzieci #content .pagination ul li a:hover {
+	border-color:#f16825;
+	background:#f16825 !important;
+	color:#FFF;
+}
+#dzieci #content .pagination ul li.previous a {background:url('../img/previous_icon_small.gif') 9px center no-repeat;}
+#dzieci #content .pagination ul li.next a {background:url('../img/next_icon_small.gif') 91% center no-repeat;}
+#dzieci #content .pagination * {
+	display:block;
+	float:left;
+	color:#f16825;
+}

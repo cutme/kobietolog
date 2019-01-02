@@ -1,0 +1,97 @@
+/* =FOOTER ---------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#footer {
+    @extend %rel;
+    padding-bottom: 50px;
+    line-height: 24px;
+    font-size: 12px;
+    
+    @media screen and ( max-width: $smartphone_portrait + px ) {
+        text-align: center;
+    }
+
+    p.logo_left, ul {        
+        
+        @media screen and ( min-width: $smartphone_portrait + 1px ) {
+            position: absolute;
+            top: 0;
+        }
+    }
+    
+    p {
+        &.logo_right {
+        
+            @media screen and ( min-width: $smartphone_portrait + 1px ) {
+                position: absolute;
+                top: 0;
+            }
+        }
+        
+        img {
+            display: inline;
+            vertical-align: middle;
+        }
+
+        &.logo_left {
+            
+            color: #999EA1;
+            
+            @media screen and ( min-width: $smartphone_portrait + 1px ) {
+                left: 0;
+            }
+    
+            img {
+                padding-right: 48px;
+            }
+        }    
+    }
+    
+    ul {
+        color: #1795D6;
+        
+        @media screen and ( min-width: $smartphone_portrait + 1px ) {
+            right: 0;
+        }
+
+        li {
+            display: inline;
+            padding: 0 7px 0 9px;
+            background: url('../img/separator.gif') 0 center no-repeat;
+
+            &:first-child {
+                background-image: none;
+            }
+        }
+    }
+    
+    p.logo_right {
+        //width: 100px;
+        color: #999EA1;
+        
+        @media screen and ( min-width: $smartphone_portrait + 1px ) {
+            right: 0;
+        }
+    }
+}
+
+#matka #content {
+  .hour2 {
+    font-size: 11px;
+    color: #999999;
+    width: 60px;
+    height: 30px;
+    background: url(../img/small_clock.gif) 0 center no-repeat;
+    float: left;
+    padding-left: 18px;
+    margin: -5px 0px 5px 0px;
+  }
+  .hour span2 {
+    display: block;
+    height: 12px;
+    line-height: 12px;
+  }
+}
+
+#g_belka .srodek .wrap_right div {
+  width: 300px;
+}

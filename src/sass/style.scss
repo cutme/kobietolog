@@ -1,0 +1,42 @@
+@import 'settings/colors.scss';
+@import 'settings/global.scss';
+
+//@import 'tools/clear';
+@import 'tools/functions';
+@import 'tools/mixins';
+@import 'tools/lightbox';
+
+@import 'generic/reset';
+@import 'generic/box-sizing';
+
+@import 'elements/extends';
+@import 'elements/form';
+@import 'elements/page';
+@import 'elements/typography';
+
+@import 'objects/hamburger';
+
+@import 'components/content.scss';
+@import 'components/extra.scss';
+@import 'components/footer.scss';
+@import 'components/header.scss';
+@import 'components/navigation.scss';
+@import 'components/related-posts.scss';
+@import 'components/search.scss';
+@import 'components/sidebar.scss';
+@import 'components/topbar.scss';
+
+@import 'components/strefa-blog.scss';
+@import 'components/strefa-matka.scss';
+
+@import 'components/blog-dom.scss';
+@import 'components/blog-dzieci.scss';
+@import 'components/blog-gadzety.scss';
+@import 'components/blog-nastolatki.scss';
+@import 'components/blog-on.scss';
+@import 'components/blog-ona.scss';
+@import 'components/blog-relaks.scss';
+@import 'components/blog-slub.scss';
+
+@import 'trumps/trumps';
+

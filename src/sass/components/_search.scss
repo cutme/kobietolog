@@ -1,0 +1,36 @@
+/* Search area */
+
+#content {
+    .wyszukiwanie {
+        padding: 0 0 20px;
+        margin-bottom: 20px;
+        height: 20px;
+        border-bottom: 1px dashed #CACAB8;
+    
+        * {
+            display: block;
+            float: left;
+        }
+    
+        h1 {
+            line-height: 44px;
+            padding: 0 18px 0 6px;
+            font-size: 24px;
+        }    
+    }
+  
+    .post .post_inner .post_photo span a {
+        position: relative;
+        top: -5px;
+    }
+}
+
+/* Jakies drobiazgi */
+
+.tx_tweetandlike_pi1-likeButton, .tx-facebooksocialplugins-pi1 {
+  margin-top: -2px;
+}
+
+.tx_tweetandlike_pi1-likeButton {
+  margin-left: 5px;
+}

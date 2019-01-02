@@ -1,0 +1,170 @@
+/****************************************************************************************/
+/* Blog ONA | kolor główny: #ed3496 #ona*/
+
+#ona {
+  a {
+    color: #ed3496;
+    &:hover {
+      color: #ed3496;
+    }
+  }
+  #content .post {
+    .post_headline h2 {
+      color: #ed3496;
+      a {
+        color: #000000;
+        &:hover {
+          background-color: #ed3496;
+          color: #FFF;
+        }
+      }
+    }
+    .post_inner {
+      background-color: #FFF;
+      border-bottom: 3px solid #D8D8D8;
+      a {
+        color: #ed3496;
+        &:hover {
+          background-color: #ed3496;
+          color: #FFF;
+        }
+      }
+      span.ib a:hover, p.author a:hover {
+        background-color: #ed3496;
+        color: #fff;
+      }
+      .read_more a {
+        background: #ed3496 url('../img/arrows.gif') 92% 52% no-repeat;
+        color: #FFF;
+      }
+    }
+  }
+  #sidebar .side_box .side_box_inner ul {
+    &.popular li a {
+      strong {
+        color: #ed3496;
+      }
+      &:hover strong {
+        background-color: #ed3496;
+        color: #FFF;
+      }
+    }
+    &.tags li a:hover {
+      background-color: #ed3496;
+      color: #FFF;
+    }
+  }
+  #content {
+    .post .post_inner .post_meta .categories span.cr a:hover {
+      color: #ed3496;
+      background-color: #fff;
+      text-decoration: none;
+    }
+    .post_links a:hover, .post_links2 a:hover, .single_comment a:hover {
+      background-color: #ed3496;
+      color: #FFF;
+    }
+  }
+  #sidebar .side_box .newsletter form .button, #extra .ideas_top form .button {
+    background: #ed3496;
+  }
+  #content .comment_form form .button .bordered {
+    border-color: #ed3496;
+    background-color: #ed3496;
+    color: #FFF;
+  }
+  #sidebar .side_box .newsletter h3 {
+    color: #ed3496;
+  }
+  .navigation li.current a {
+    color: #ed3496;
+  }
+  #item_1 {
+    background-position: -145px 0;
+  }
+
+    .headerh a {
+        background-position: 0 -396px;
+    
+        @media screen and ( max-width: $smartphone_portrait + px ) {
+            background-position: 0 -26%; 
+        }
+    }
+
+  .illustration_area {
+    background: url('../img/girls.png') -145px 0 no-repeat;
+    display: block;
+    height: 185px;
+    width: 145px;
+    position: absolute;
+    bottom: 39px;
+    left: 0;
+  }
+  #header form .button {
+    border: 1px solid #ed3496;
+    background: #ed3496 url('../img/button_bg_ona.gif') 0 0 repeat-x;
+  }
+  #related_posts a {
+    &.previous {
+      background-image: url('../img/previous_icon_ona.gif');
+      left: 12px;
+    }
+    &.next {
+      background-image: url('../img/next_icon_ona.gif');
+      right: 12px;
+    }
+  }
+  #footer ul li a {
+    color: #ed3496;
+  }
+  #content .pagination {
+    ul li {
+      &.current a, a:hover {
+        border-color: #ed3496;
+        background: #ed3496 !important;
+        color: #FFF;
+      }
+      &.previous a {
+        background: url('../img/previous_icon_small.gif') 9px center no-repeat;
+      }
+      &.next a {
+        background: url('../img/next_icon_small.gif') 91% center no-repeat;
+      }
+    }
+    * {
+      //display:block;
+      //float:left;
+      color: #ed3496;
+    }
+  }
+}
+
+/*kolorystyka tekstu linku nizej posta*/
+/*kolorystyka tekstu linku wyzej posta*/
+/*link czytaj wiecej*/
+
+/*tagi*/
+
+/*linki w komentarzach*/
+
+/*newsletter zapisz sie button*/
+/*szukaj button*/
+/*button dodaj komentarz*/
+/*napis newsletter*/
+
+/*wybrany link aktywnej strony*/
+/*logo dolaczone do linku*/
+/*logo dolaczone do linku*/
+/*obrazek dolaczony do linku*/
+
+/*button szukaj*/
+
+/*slider strzalki*/
+/*stopka kolory linkow*/
+
+/*
+#ona #content .pagination ul li a {
+	border-color: #ccc;
+	//height:20px;
+}
+*/

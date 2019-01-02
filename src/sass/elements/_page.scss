@@ -1,0 +1,209 @@
+/* =KOLORY BLOGOW ------------------------------------------------------------------------------ */
+/*Blog STREFA*/
+#header .navigation li.strefa:hover a, #header .navigation li.strefa.ie_hover a, #header .navigation li.strefa a:hover {background-color:#25AAE1;  color:#fff;} 
+
+/*Blog ONA*/
+#header .navigation li.ona:hover a, #header .navigation li.ona.ie_hover a, #header .navigation li.ona a:hover 
+	{background-color:#ed3496;  color:#fff;} 
+	
+/*Blog ON*/	
+#header .navigation li.on:hover a, #header .navigation li.on.ie_hover a, #header .navigation li.on a:hover 
+	{background-color:#68c9de;  color:#fff;} 
+	
+/*Blog DZIECI*/	
+#header .navigation li.dzieci:hover a, #header .navigation li.dzieci.ie_hover a, #header .navigation li.dzieci a:hover 
+	{background-color:#f16825;  color:#fff;} 
+	
+/*Blog NASTOLETNI*/
+#header .navigation li.nastoletni:hover a, #header .navigation li.nastoletni.ie_hover a, #header .navigation li.nastoletni a:hover 
+	{background-color:#4e7eab;  color:#fff;}  
+	
+/*Blog RELAKS*/
+#header .navigation li.relaks:hover a, #header .navigation li.relaks.ie_hover a, #header .navigation li.relaks a:hover 
+	{background-color:#cd2027;  color:#fff;} 
+	
+/*Blog DOM*/
+#header .navigation li.dom:hover a, #header .navigation li.dom.ie_hover a, #header .navigation li.dom a:hover 
+	{background-color:#72bf44;  color:#fff;} 
+	
+/*Blog SLUB*/
+#header .navigation li.slub:hover a, #header .navigation li.slub.ie_hover a, #header .navigation li.slub a:hover 
+	{background-color:#f16568;  color:#fff;} 
+	
+/*Blog GADZETY*/
+#header .navigation li.gadzety:hover a, #header .navigation li.gadzety.ie_hover a, #header .navigation li.gadzety a:hover 
+	{background-color:#25AAE1;  color:#fff;} 
+	
+	
+
+
+/* =GLOBAL ------------------------------------------------------------------------------------------------- */
+
+body {
+  background-color: #FFF;
+  font: 13px/22px Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #26292B;
+}
+
+.banner_top {
+  background-color: #FFFFFF;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  overflow: hidden;
+  img, object {
+    margin: 0 auto;
+    text-align: left;
+  }
+}
+
+.container {
+    background: transparent;
+    text-align: left;
+    margin: auto;
+    width: 994px;
+    padding-top: 0;
+    
+    @media screen and ( max-width: $tablet + px ) {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+    
+    @media screen and ( max-width: $smartphone_portrait + px ) {
+        padding: 0 10px;
+    }
+}
+
+#dzieci #content .ramkaNews {
+  span.skadWpis {
+    background: #f16825;
+  }
+  border-color: #f16825;
+}
+
+#matka #content .ramkaNews, #strefa #content .ramkaNews {
+  span.skadWpis {
+    background: #6599cd;
+  }
+  border-color: #6599cd;
+}
+
+#ona #content .ramkaNews {
+  span.skadWpis {
+    background: #ed3496;
+  }
+  border-color: #ed3496;
+}
+
+#on #content .ramkaNews {
+  span.skadWpis {
+    background: #68c9de;
+  }
+  border-color: #68c9de;
+}
+
+#nastolatki #content .ramkaNews {
+  span.skadWpis {
+    background: #4e7eab;
+  }
+  border-color: #4e7eab;
+}
+
+#relaks #content .ramkaNews {
+  span.skadWpis {
+    background: #cd2027;
+  }
+  border-color: #cd2027;
+}
+
+#dom #content .ramkaNews {
+  span.skadWpis {
+    background: #72bf44;
+  }
+  border-color: #72bf44;
+}
+
+#slub #content .ramkaNews {
+  span.skadWpis {
+    background: #f16568;
+  }
+  border-color: #F16568;
+}
+
+#gadzety #content .ramkaNews {
+  span.skadWpis {
+    background: #25AAE1;
+  }
+  border-color: #25AAE1;
+}
+
+#content {
+  .ramkaNews {
+    .post {
+      padding: 5px;
+    }
+    span.skadWpis {
+      padding: 5px;
+      background: #FF0000;
+      color: #fff;
+      font-size: 13px;
+    }
+    .post {
+      .post_headline {
+        width: 640px;
+        h2 {
+          width: 580px;
+        }
+      }
+      .post_inner {
+        width: 620px;
+      }
+    }
+  }
+  .post {
+    background: url('../img/box_shadow.gif') 100% 100% no-repeat;
+  }
+}
+
+#sidebar .side_box, #extra {
+  background: url('../img/box_shadow.gif') 100% 100% no-repeat;
+}
+
+#sidebar .side_box .side_box_inner ul.links li, #extra .sites li {
+  background: url('../img/dot.gif') 7px 6px no-repeat;
+}
+
+#sidebar .side_box .newsletter form input, #extra .ideas_top form input {
+  background: #FFF url('../img/bg_input.gif') 0 0 repeat-x;
+}
+
+#content {
+  .post .post_inner {
+    .post_photo span, .post_meta .categories div.cr .comment {
+      background: url('../img/comment_icon.gif') 0 center no-repeat;
+      padding-left: 23px;
+    }
+  }
+  .photo_area .headliner div img, .blogger_area, .csc-frame-frame1 {
+    -moz-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+  }
+}
+
+#extra .ideas_top form {
+  -moz-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+}
+
+

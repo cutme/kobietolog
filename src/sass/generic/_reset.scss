@@ -1,0 +1,29 @@
+/* =RESET ------------------------------------------------------------------------------------- */
+
+body, html {
+height:100%;
+}
+
+* {margin:0; padding:0;}
+a {text-decoration:none; color:#666;}
+a:hover, a:focus {text-decoration:underline;}
+a img, fieldset {border:0; display:block;}
+h1, h4, h5, strong, img {font-weight:bold;}
+h2, h3, h4, h5 {font-weight:normal;}
+img {image-rendering:optimizeQuality;}
+p, li, td, dt, dd {
+}
+div {display:block;}
+ol, ul {
+	list-style-type:none;
+}
+table {border-collapse:collapse;}
+input, textarea, select {font:1em Helvetica, Arial, sans-serif; text-align:left !important; background-color:#F5F5F5; border:1px solid #CCC; color:#26292B; padding:4px;}
+input:focus, textarea:focus {border-color:#AAA; outline:none;}
+.button input, input.button {height:auto !important; width:auto !important; padding:0 !important; cursor:pointer;}
+.none, legend {display:none !important;}
+.clearing {overflow:hidden; width:100%; clear:both;}
+.clear-both {clear:both;}
+.clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.current * {cursor:default !important; text-decoration:none !important;}
+.facebook-like {margin-left:3px;}

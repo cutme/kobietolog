@@ -1,0 +1,73 @@
+/* Gorna Belka ------------------------------------------------------------------------------------------------- */
+#topBar {
+background-color:#EEEEEE;
+height:28px;
+min-width:970px;
+overflow:hidden;
+}
+#topBar div {float:left; width:700px;}
+#topBar h1 {
+	float:left;
+	margin-right:10px;
+	padding-left:5px;
+	padding-top:3px;
+	width:208px;
+	
+}
+#topBar h1 a {
+background:transparent url(../img/iprezety_gbelka.gif) no-repeat scroll 105px 0;
+height:30px;
+width:300px;
+overflow:hidden;
+display:block;
+text-indent:-999px;
+}
+#topBar ul {
+float:left;
+font-size:11px;
+padding-top:8px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+#topBar li {
+float:left;
+margin-right:7px;
+padding-right:6px;
+line-height:14px;
+}
+#topBar li a {
+color:#6599CD;
+}
+#topBar form {
+float:right;
+padding-right:10px;
+
+}
+#topBar fieldset {
+float:right;
+padding-top:5px;
+}
+#topBar input {
+padding:1px 7px;
+}
+#topBar input, #topBar select {
+border:1px solid #E6E6E6;
+color:#888888;
+font-size:11px;
+margin-right:3px;
+vertical-align:middle;
+width:95px;
+padding:0;
+margin-bottom:7px;
+}
+#topBar button {
+background:transparent url('../img/szukaj.png') no-repeat scroll 0 0;
+border:0 none;
+height:19px;
+text-indent:-9999px;
+vertical-align:top;
+width:79px;
+}
+.slogan {color:#7e7b7b; font:bold 9px Verdana, Arial, Helvetica, sans-serif;}
+.profil {}

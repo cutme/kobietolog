@@ -1,0 +1,57 @@
+/****************************************************************************************/
+/* STREFA Bloga | kolor główny: #6599cd #strefa */
+#strefa #content .post .post_headline {height:63px; padding-bottom:10px;}
+#strefa a, #strefa a:hover {color:#6599cd;}
+#strefa #content .post .post_headline h2 {color:#6599cd;}
+#strefa #content .post .post_headline h2 a {color:#6599cd;}
+#strefa #content .post .post_headline h2 a:hover {background-color:#6599cd; color:#FFF;}
+#strefa #content .post .post_inner {background-color:#FFF; border-bottom:3px solid #D8D8D8;}
+#strefa #content .post .post_inner a {color:#6599cd;}
+#strefa #content .post .post_inner a:hover {background-color:#6599cd; color:#FFF;}
+#strefa #content .post .post_inner .read_more a {color:#fff;}
+#strefa #content .post .post_inner .read_more a:hover {color:#fff;}
+ /*kolorystyka tekstu linku nizej posta*/
+#strefa #content .post .post_inner span.ib a:hover, #strefa #content .post .post_inner p.author a:hover {background-color:#6599cd; color:#fff;}  /*kolorystyka tekstu linku wyzej posta*/ 
+#strefa #content .post .post_inner .read_more a {background:#6599cd url('../img/arrows.gif') 92% 52% no-repeat; color:#FFF;} /*link czytaj wiecej*/
+#strefa #sidebar .side_box .side_box_inner ul.popular li a strong {color:#6599cd;}
+#strefa #sidebar .side_box .side_box_inner ul.popular li a:hover strong {background-color:#6599cd; color:#FFF;} /*tagi*/
+#strefa #sidebar .side_box .side_box_inner ul.tags li a:hover {background-color:#6599cd; color:#FFF;}
+#strefa #sidebar .side_box .side_box_inner .comment_area a:hover {background-color:#6599cd; color:#FFF;}
+
+#strefa #content .post .post_inner .post_meta .categories span.cr a:hover {color:#6599cd; background-color:#fff; text-decoration:none;}
+
+#strefa #content .post_links a:hover, #strefa #content .post_links2 a:hover {background-color:#6599cd; color:#FFF;}
+#strefa #content .single_comment a:hover {background-color:#6599cd; color:#FFF;}	/*linki w komentarzach*/
+
+#strefa #sidebar .side_box .newsletter form .button {background:#6599cd;} 	/*newsletter zapisz sie button*/
+#strefa #extra .ideas_top form .button {background:#6599cd;} /*szukaj button*/
+#strefa #content .comment_form form .button .bordered {border-color:#6599cd; background-color:#6599cd; color:#FFF;} /*button dodaj komentarz*/
+#strefa #sidebar .side_box .newsletter h3 {color:#6599cd;} /*napis newsletter*/
+
+#strefa .navigation li.current a {background-image:none; border:1px solid #CACAB8; border-bottom-color:#FFF; background-color:#FFF; color:#6599cd; z-index:22222;} /*wybrany link aktywnej strony*/
+#strefa #item_0 {background-position:0 0;} /*logo dolaczone do linku*/
+#strefa .headerh a {text-indent:-9999px; background:url('../img/blogloga.png') 0 -453px no-repeat;} /*logo dolaczone do linku*/
+#strefa .illustration_area {background:url('../img/girls.png') 0 0  no-repeat; display:block; height:185px; width:145px; position:absolute; bottom:39px; left:0;} /*obrazek dolaczony do linku*/
+
+#strefa #header form .button {border:1px solid #6599cd; background:#6599cd url('../img/button_bg_strefa.gif') 0 0 repeat-x; } /*button szukaj*/
+
+#strefa #related_posts a.previous {background-image:url('../img/previous_icon_strefa.gif'); left:12px;} 
+#strefa #related_posts a.next     {background-image:url('../img/next_icon_strefa.gif'); right:12px;}    /*slider strzalki*/
+#strefa #footer ul li a {color:#6599cd;} /*stopka kolory linkow*/
+
+#strefa #content .pagination ul li a {
+	border:4px solid #ccc;
+	height:20px;
+}
+#strefa #content .pagination ul li.current a, #strefa #content .pagination ul li a:hover {
+	border-color:#6599cd;
+	background:#6599cd !important;
+	color:#FFF;
+}
+#strefa #content .pagination ul li.previous a {background:url('../img/previous_icon_small.gif') 9px center no-repeat;}
+#strefa #content .pagination ul li.next a {background:url('../img/next_icon_small.gif') 91% center no-repeat;}
+#strefa #content .pagination * {
+	display:block;
+	float:left;
+	color:#6599cd;
+}

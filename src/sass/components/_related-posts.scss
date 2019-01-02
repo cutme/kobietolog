@@ -1,0 +1,102 @@
+/* Related posts on top */
+
+#related_posts {
+    @extend %rel;
+    background: #FFF url('../img/bg_related_r.gif') 952px 0 no-repeat;
+    border: 1px solid #D8D8D8;
+    margin-bottom: 15px;
+
+    a {
+        &.previous, &.next {
+            position: absolute;
+            top: 52px;
+            display: block;
+            width: 14px;
+            height: 24px;
+            text-indent: -9999px;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+        }
+        
+        &.previous, &.next {}
+        &.previous:focus, &.next:focus {
+            outline: none;
+            text-decoration: none;
+        }
+    }
+    
+    .viewport {
+        @extend %rel;
+        background-color: #EEE;
+        padding: 10px 4px 5px 10px;
+        overflow: hidden;
+        
+        @media screen and ( min-width: $tablet + 1px ) {
+            padding: 10px 14px 5px 20px;
+        }
+    }
+    
+    .slider {
+        background: url('../img/bg_related_l.gif') 35px 0 no-repeat;
+        box-sizing: border-box;
+        
+        @media screen and ( min-width: $tablet + 1px ) {
+            //width: 912px;
+            padding: 0 40px;
+        }
+        
+        ul {
+            @extend %flex;
+
+            /*
+position: absolute;
+            top: 12px;
+            left: 0;
+            height: 102px;
+            overflow: hidden;
+*/
+            
+            li {
+                //height: 100px;
+                //width: grid(283, 875);
+                width: 33.33%;
+                
+                //display: block;
+                //float: left;
+                color: #333;
+                
+                
+
+                a {
+                    height: 95px;
+                    //width: 284px;
+                    @extend %flex;
+                    //float: left;
+                    color: #333;
+    
+                    * {
+                        cursor: pointer;
+                    }
+                }
+    
+                background-color: #FFF;
+                border: 1px solid #CCC;
+                margin-right: 6px;
+                overflow: hidden;
+                
+               
+                img {
+                    //margin-right: 10px;
+                }
+
+                
+                span {
+                    //display: block;
+                    padding: 3px 10px 10px 10px;
+                    line-height: normal;
+                    font-size: rem(13);
+                }
+            }
+        }
+    }
+}

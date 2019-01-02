@@ -1,0 +1,397 @@
+/* =HEADER ---------------------------------------------------------------------------------------------------------------------- */
+
+#header {
+    @extend %rel;
+    z-index: 11;
+
+    @media screen and ( min-width: $tablet_portrait + 1px ) {
+        min-height: 183px;
+        margin-bottom: 11px;
+    }
+    
+    @media screen and ( max-width: $tablet_portrait + px ) {
+        padding-top: 20px;
+    }
+  
+    h1 {
+        @extend %abs;
+        top: 100px;
+        left: 150px;
+        display: block;
+        height: 56px;
+        width: 340px;
+    
+        a {
+            display: block;
+            height: 56px;
+            width: 340px;
+            text-indent: -9999px;
+            background: url('../img/blogloga.png') 0 -453px no-repeat;
+        }
+    
+    
+    
+        &#logo_0 a {
+            background-position: 0 -453px;
+        }
+        &#logo_1 a {
+            background-position: 0 -396px;
+        }
+        &#logo_2 a {
+            background-position: 0 -340px;
+        }
+        &#logo_3 a {
+            background-position: 0 -283px;
+        }
+        &#logo_4 a {
+            background-position: 0 -226px;
+        }
+        &#logo_5 a {
+            background-position: 0 -113px;
+        }
+        &#logo_6 a {
+            background-position: 0 -170px;
+        }
+        &#logo_7 a {
+            background-position: 0 -56px;
+        }
+        &#logo_8 a {
+            background-position: 0 0;
+        }
+    }
+
+
+  .illustration_area {
+    background: url('../img/girls.png') 0 0 no-repeat;
+    display: block;
+    height: 185px;
+    width: 145px;
+    position: absolute;
+    bottom: 39px;
+    left: 0;
+  }
+ 
+  #item_0 {
+    background-position: 0 0;
+  }
+  #item_1 {
+    background-position: -145px 0;
+  }
+  #item_2 {
+    background-position: -290px 0;
+  }
+  #item_3 {
+    background-position: -435px 0;
+  }
+  #item_4 {
+    background-position: -580px 0;
+  }
+  #item_5 {
+    background-position: -725px 0;
+  }
+  #item_6 {
+    background-position: 0 -185px;
+  }
+  #item_7 {
+    background-position: -145px -185px;
+  }
+  #item_8 {
+    background-position: -290px -185px;
+  }
+  #item_9 {
+    background-position: -435px -185px;
+  }
+  #item_10 {
+    background-position: -580px -185px;
+  }
+
+    form {
+        height: 35px;
+    
+        @media screen and ( min-width: $tablet_portrait + 1px ) {
+            position: absolute;
+            top: 40px;
+            right: 20px;
+            
+            overflow: hidden;
+        }
+        
+        @media screen and ( min-width: $tablet_portrait + 1px ) and ( max-width: $tablet + px ) {
+            right: 0;
+        }
+        
+        @media screen and ( max-width: $tablet_portrait + px ) {
+            margin-bottom: 20px;
+        }
+        
+        * {
+          
+            line-height: 35px;
+          
+            @media screen and ( min-width: $smartphone_portrait + 1px ) {
+                display: block;
+                float: left;
+            }
+        }
+    
+        fieldset > div {
+            
+            @media screen and ( max-width: $smartphone_portrait + px ) {
+                display: flex;
+            }
+            
+            .sword {
+                height: 33px;
+
+                @media screen and ( max-width: $smartphone_portrait + px ) {
+                    flex: 1;
+                }
+            }
+        }
+    
+        input {
+            display: block;
+            float: left;
+            //height: 23px;
+            //
+            margin-right: 3px;
+            line-height: 33px;
+            
+            @media screen and ( min-width: $smartphone + 1px ) {
+                width: 256px;
+            }
+        }
+
+        .button {
+            margin: 0;
+            font-size: 1.2em;
+            color: #FFF;
+            height: 33px !important;
+            width: 100px !important;
+            text-align: center !important;
+        }
+    }
+
+    .linktohome {
+        z-index: 333;
+        background: black;
+        display: none;
+        padding: 2px;
+        font: {
+            size: 15px;
+            weight: bold;
+        }
+        
+        @media screen and ( min-width: $tablet_portrait + 1px ) {
+            position: absolute;
+            top: 117px;
+            display: inline-block;
+        }
+        
+        a {
+            z-index: 330;
+            color: #FFF;
+            
+            &:hover {
+                color: #FFF;
+            }
+        }
+    }
+
+    
+  .breadcrumbs, .follow_us {
+    height: 16px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #7B7D7E;
+  }
+  .breadcrumbs *, .follow_us * {
+    line-height: 16px;
+    font-size: 12px;
+    display: block;
+    float: left;
+  }
+}
+
+/* Logo area */
+
+/* logo Strefa Bloga*/
+/* logo Strefa Bloga */
+/* logo Kobieta */
+/* logo Mężczyzna */
+/* logo Dzieci */
+/* logo Nastolatki */
+/* logo Relaks */
+/* logo Dom */
+/* logo Ślub */
+/* logo Gadżety */
+
+/*#header h1#logo_9 a {background-position:0 0px;}										    logo matka 
+#header h1#logo_10 a {background-position:0 0px;}										    logo matka */
+/* Illustration area */
+
+/* GIRL Strefa Bloga */
+/* GIRL Kobieta */
+/* GIRL Mężczyzna */
+/* GIRL Dzieci */
+/* GIRL Nastolatki */
+/* GIRL Relaks */
+/* GIRL Dom */
+/* GIRL Ślub */
+/* GIRL Gadzety */
+/* GIRL inne */
+/* GIRL inne */
+/* Form area */
+
+/* Navigation area */
+
+/* Breadcrumbs area */
+
+#content .post .bookmarks * {
+  line-height: 16px;
+  font-size: 12px;
+  display: block;
+  float: left;
+}
+
+#header {
+  .breadcrumbs {
+    background: url('../img/bg_header_l.gif') 0 100% no-repeat;
+    width: 650px;
+    left: 0;
+    padding-left: 13px;
+    * {
+      margin-right: 3px;
+      font-weight: normal;
+    }
+  }
+  .follow_us {
+    right: 0;
+    bottom: 40px;
+    padding-right: 13px;
+    z-index: 333;
+    ul li {
+      margin-left: 5px;
+    }
+  }
+}
+
+/* Follow us & bookmarks area */
+
+/*#header .follow_us ul, #content .post .bookmarks ul {overflow:hidden; height:16px;}*/
+
+#content .post .bookmarks a {
+  margin-left: 5px;
+}
+
+#header .follow_us ul li a, #content .post .bookmarks ul li a {
+  text-indent: -9999px;
+  height: 16px;
+  width: 16px;
+  background-image: url('../img/icon_set.gif');
+  background-repeat: no-repeat;
+}
+
+#header .follow_us ul li.nk a, #content .post .bookmarks ul li.nk a {
+  background-position: 0 0;
+}
+
+#header .follow_us ul li.blip a, #content .post .bookmarks ul li.blip a {
+  background-position: -16px 0;
+  width: 20px;
+}
+
+#header .follow_us ul li.facebook a, #content .post .bookmarks ul li.facebook a {
+  background-position: -37px 0;
+}
+
+#header .follow_us ul li.twitter a, #content .post .bookmarks ul li.twitter a {
+  background-position: -52px 0;
+  width: 12px;
+}
+
+#header .follow_us ul li.flaker a, #content .post .bookmarks ul li.flaker a {
+  background-position: -64px 0;
+}
+
+#header .follow_us ul li.rss a, #content .post .bookmarks ul li.rss a {
+  background-position: -80px 0;
+}
+
+#header .follow_us ul li.wykop a, #content .post .bookmarks ul li.wykop a {
+  background-position: -96px 0;
+}
+
+#header .headerh {
+    display: block;
+    height: 56px;
+    width: 340px;
+    
+    @media screen and ( min-width: $tablet_portrait + 1px ) {
+        position: absolute;
+        top: 43px;
+        left: 3px;
+    }
+    
+    @media screen and ( min-width: $smartphone_portrait + 1px ) and ( max-width: $tablet_portrait + px ) {
+        margin-bottom: 20px;
+    }
+    
+    @media screen and ( max-width: $smartphone_portrait + px ) {
+        width: 240px;
+    }
+
+    a {
+        display: block;
+        height: 56px;
+        text-indent: -9999px;
+        background: {
+            image: url('../img/blogloga.png');
+            size: 100%;        
+        }
+        
+        @media screen and ( max-width: $smartphone_portrait + px ) {
+            height: 42px;
+        }
+    }
+  
+  &#logo_0 a {
+    background-position: 0 -453px;
+  }
+  &#logo_1 a {
+    background-position: 0 -396px;
+  }
+  &#logo_2 a {
+    background-position: 0 -340px;
+  }
+  &#logo_3 a {
+    background-position: 0 -283px;
+  }
+  &#logo_4 a {
+    background-position: 0 -226px;
+  }
+  &#logo_5 a {
+    background-position: 0 -113px;
+  }
+  &#logo_6 a {
+    background-position: 0 -170px;
+  }
+  &#logo_7 a {
+    background-position: 0 -56px;
+  }
+  &#logo_8 a {
+    background-position: 0 0;
+  }
+}
+
+/* logo Strefa Bloga*/
+/* logo Strefa Bloga */
+/* logo Kobieta */
+/* logo Mężczyzna */
+/* logo Dzieci */
+/* logo Nastolatki */
+/* logo Relaks */
+/* logo Dom */
+/* logo Ślub */

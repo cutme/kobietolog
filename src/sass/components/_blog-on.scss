@@ -1,0 +1,60 @@
+/****************************************************************************************/
+/* Blog ON | kolor główny: #68c9de #on*/
+#on a, #on a:hover {color:#68c9de;}
+#on #content .post .post_headline h2 {color:#68c9de;}
+#on #content .post .post_headline h2 a {color:#000000;}
+#on #content .post .post_headline h2 a:hover {background-color:#68c9de; color:#FFF;}
+#on #content .post .post_inner {background-color:#FFF; border-bottom:3px solid #D8D8D8;}
+#on #content .post .post_inner a {color:#68c9de;}
+#on #content .post .post_inner a:hover {background-color:#68c9de; color:#FFF;}
+/*
+#on #content .post .post_inner .read_more a {color:#fff;}
+#on #content .post .post_inner .read_more a:hover {color:#fff;}
+*/
+ /*kolorystyka tekstu linku nizej posta*/
+#on #content .post .post_inner span.ib a:hover, #on #content .post .post_inner p.author a:hover {background-color:#68c9de; color:#fff;}  /*kolorystyka tekstu linku wyzej posta*/ 
+#on #content .post .post_inner .read_more a {background:#68c9de url('../img/arrows.gif') 92% 52% no-repeat; color:#FFF;} /*link czytaj wiecej*/
+#on #sidebar .side_box .side_box_inner ul.popular li a strong {color:#68c9de;}
+#on #sidebar .side_box .side_box_inner ul.popular li a:hover strong {background-color:#68c9de; color:#FFF;} /*tagi*/
+#on #sidebar .side_box .side_box_inner ul.tags li a:hover {background-color:#68c9de; color:#FFF;}
+#on #sidebar .side_box .side_box_inner .comment_area a:hover {background-color:#68c9de; color:#FFF;}
+
+#on #content .post .post_inner .post_meta .categories span.cr a:hover {color:#68c9de; background-color:#fff; text-decoration:none;}
+
+#on #content .post_links a:hover, #on #content .post_links2 a:hover {background-color:#68c9de; color:#FFF;}
+#on #content .single_comment a:hover {background-color:#68c9de; color:#FFF;}	/*linki w komentarzach*/
+
+#on #sidebar .side_box .newsletter form .button {background:#68c9de;} 	/*newsletter zapisz sie button*/
+#on #extra .ideas_top form .button {background:#68c9de;} /*szukaj button*/
+#on #content .comment_form form .button .bordered {border-color:#68c9de; background-color:#68c9de; color:#FFF;} /*button dodaj komentarz*/
+#on #sidebar .side_box .newsletter h3 {color:#68c9de;} /*napis newsletter*/
+
+#on .navigation li.current a { color:#68c9de; } /*wybrany link aktywnej strony*/
+#on #item_2 {background-position:-290px 0;} /*obrazek kobiety dolaczony do linku*/
+#on .headerh a {text-indent:-9999px; background:url('../img/blogloga.png') 0 -340px no-repeat;} /*logo dolaczone do linku*/
+#on .illustration_area {background:url('../img/girls.png') -290px 0  no-repeat; display:block; height:185px; width:145px; position:absolute; bottom:39px; left:0;}/*obrazek kobiety dolaczony do linku*/
+
+#on #header form .button {border:1px solid #68c9de; background:#68c9de url('../img/button_bg_on.gif') 0 0 repeat-x; } /*button szukaj*/
+
+#on #related_posts a.previous {background-image:url('../img/previous_icon_on.gif'); left:12px;} 
+#on #related_posts a.next     {background-image:url('../img/next_icon_on.gif'); right:12px;}    /*slider strzalki*/
+#on #footer ul li a {color:#68c9de;} /*stopka kolory linkow*/
+
+/*
+#on #content .pagination ul li a {
+	border:4px solid #ccc;
+	//height:20px;
+}
+*/
+#on #content .pagination ul li.current a, #on #content .pagination ul li a:hover {
+	border-color:#68c9de;
+	background:#68c9de !important;
+	color:#FFF;
+}
+#on #content .pagination ul li.previous a {background:url('../img/previous_icon_small.gif') 9px center no-repeat;}
+#on #content .pagination ul li.next a {background:url('../img/next_icon_small.gif') 91% center no-repeat;}
+#on #content .pagination * {
+	display:block;
+	float:left;
+	color:#68c9de;
+}

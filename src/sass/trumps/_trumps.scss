@@ -1,0 +1,81 @@
+#formularzkontaktowy legend  {
+display:inline !important;
+}
+
+.post_meta .categories .cr .comment:hover  { background-color:#fff; text-decoration:none;}
+#dom #content .post .post_inner .post_meta .categories .cr a:hover {color:#72BF44; background-color:#fff; text-decoration:none;}
+
+
+#content .post .post_inner .post_meta .categories div.cr a:hover {
+background-color:#FFFFFF !important ;
+color:#4E7EAB !important; 
+}
+
+
+
+.tx-ratings { position: relative; left: 0; top: 0; padding-top: 0px; margin: 1px 1px; }
+.tx-ratings .tx-ratings-display { position: absolute; left: 0; top: 0; height: 16px; }
+.tx-ratings .tx-ratings-grey-bar { position: absolute; left: 0; top: 0; width: 80px; height: 16px; background: url(../img/stars16.png) repeat-x; font-size: 1px; }
+.tx-ratings .tx-ratings-gold-bar { position: absolute; left: 0; top: 0; width: 0px; height: 16px; background: url(../img/stars16.png) repeat-x 0 -16px; font-size: 1px; font-size: 1px; }
+.tx-ratings .tx-ratings-vote-bar { position: absolute; left: 0; top: 0; width: 80px; height: 16px; font-size: 1px; }
+.tx-ratings .tx-ratings-vote-bar A { position: absolute; left:0; top: 0; width: 16px; height: 16px; border: none; text-decoration: none; }
+.tx-ratings .tx-ratings-vote-bar A:hover { background-image: url(../img/stars16.png); background-position: 0 -32px; }
+.tx-ratings .tx-ratings-vote-bar A.tx-ratings-star-1 { left: 0px; width: 16px; z-index: 5; }
+.tx-ratings .tx-ratings-vote-bar A.tx-ratings-star-2 { left: 0px; width: 32px; z-index: 4; }
+.tx-ratings .tx-ratings-vote-bar A.tx-ratings-star-3 { left: 0px; width: 48px; z-index: 3; }
+.tx-ratings .tx-ratings-vote-bar A.tx-ratings-star-4 { left: 0px; width: 64px; z-index: 2; }
+.tx-ratings .tx-ratings-vote-bar A.tx-ratings-star-5 { left: 0px; width: 80px; z-index: 1; }
+.tx-ratings .tx-ratings-cleaner { clear: left; }
+.tx-ratings .tx-ratings-text { color: #606060; font-size: 16px; font-family: Helvetica,Arial; }
+.tx-ratings .tx-rating-display-wrap { position: absolute; left: 0; top: 0; font-size: 16px; visibility: hidden; z-index: 1; }
+.tx-ratings .tx-rating-display-wrap IMG { float: left; margin-right: 5px; }
+.tx-ratings-pi1 {display:block; float:right; 
+/*padding-right: 60px;*/
+}
+.rank {float:right; height:18px; line-height:18px; font-size:10px;}
+
+#matka .rank, #matka #content a.comment:hover {color:#6599cd;}
+#matka #content .post .post_inner .post_meta .categories .cr a:hover {background-color:#FFFFFF;color:#6599cd;text-decoration:underline;}
+#dom .rank, #dom #content a.comment:hover {color:#72bf44;}
+#dom #content .post .post_inner .post_meta .categories .cr a:hover {background-color:#FFFFFF;color:#72bf44;text-decoration:underline;}
+
+#ona .rank, #ona #content a.comment:hover {color:#ED3496;}
+#ona #content .post .post_inner .post_meta .categories .cr a:hover {background-color:#FFFFFF;color:#ED3496;text-decoration:underline;}
+
+#on .rank, #on #content a.comment:hover {color:#68C9DE;}
+#on #content .post .post_inner .post_meta .categories .cr a:hover {background-color:#FFFFFF;color:#68C9DE;text-decoration:underline;}
+
+#dzieci .rank, #dzieci #content a.comment:hover {color:#F16825;}
+#dzieci #content .post .post_inner .post_meta .categories .cr a:hover {background-color:#FFFFFF;color:#F16825;text-decoration:underline;}
+
+#nastolatki .rank, #nastolatki #content a.comment:hover {color:#4E7EAB;}
+#nastolatki #content .post .post_inner .post_meta .categories .cr a:hover {background-color:#FFFFFF;color:#4E7EAB;text-decoration:underline;}
+
+#relaks .rank, #relaks #content a.comment:hover {color:#CD2027;}
+#relaks #content .post .post_inner .post_meta .categories .cr a:hover {background-color:#FFFFFF;color:#CD2027;text-decoration:underline;}
+
+#slub .rank, #slub #content a.comment:hover {color:#F16568;}
+#slub #content .post .post_inner .post_meta .categories .cr a:hover {background-color:#FFFFFF;color:#F16568;text-decoration:underline;}
+
+#gadzety .rank, #gadzety #content a.comment:hover {color:#25AAE1;}
+#gadzety #content .post .post_inner .post_meta .categories .cr a:hover {background-color:#FFFFFF;color:#25AAE1;text-decoration:underline;}
+
+#content .comment_form form .captcha div {padding-bottom:0px;}
+
+.categories .cr .rank  .tx-ratings-pi1 {display:block;float:left; width:80px;}
+#content .post .post_inner .categories  .tx-comments-count-wrap {float:right;}
+.cr .rank span {display:block;float:left; line-height:18px;}
+
+
+
+#content .post .post_inner .categories DIV.cr {
+/*width:300px;*/
+width:300px;
+}
+
+#content .post .post_inner .post_meta .categories div.cr  .tx-ratings a { height:16px;}
+
+
+.slick-slide {
+    margin-right: 6px;
+}
