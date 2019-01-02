@@ -16,8 +16,7 @@ const minify = {
 }
 
 
-const templateFileMapper = [
-                            {template: "./src/index.html", file: "index.html"},
+const templateFileMapper = [{template: "./src/index.html", file: "index.html"},
                             {template: "./src/subsite.html", file: "subsite.html"}]
 
 
