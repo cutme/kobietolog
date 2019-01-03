@@ -3,8 +3,16 @@
 #header .navigation li.strefa:hover a, #header .navigation li.strefa.ie_hover a, #header .navigation li.strefa a:hover {background-color:#25AAE1;  color:#fff;} 
 
 /*Blog ONA*/
-#header .navigation li.ona:hover a, #header .navigation li.ona.ie_hover a, #header .navigation li.ona a:hover 
-	{background-color:#ed3496;  color:#fff;} 
+#header .navigation li.ona:hover a, 
+#header .navigation li.ona.ie_hover a, 
+#header .navigation li.ona a:hover {
+
+    @media screen and ( min-width: $tablet_portrait + 1px ) {
+        background-color: #ed3496;
+        color: white;
+    }
+}
+
 	
 /*Blog ON*/	
 #header .navigation li.on:hover a, #header .navigation li.on.ie_hover a, #header .navigation li.on a:hover 

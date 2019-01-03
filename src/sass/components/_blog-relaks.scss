@@ -1,58 +1,172 @@
 /****************************************************************************************/
 /* Blog RELAKS | kolor główny: #cd2027 #relaks*/
-#relaks a, #relaks a:hover {color:#cd2027;}
-#relaks #content .post .post_headline h2 {color:#cd2027;}
-#relaks #content .post .post_headline h2 a {color:#000000;}
-#relaks #content .post .post_headline h2 a:hover {background-color:#cd2027; color:#FFF;}
-#relaks #content .post .post_inner {background-color:#FFF; border-bottom:3px solid #D8D8D8;}
-#relaks #content .post .post_inner a {color:#cd2027;}
-#relaks #content .post .post_inner a:hover {background-color:#cd2027; color:#FFF;}
+
+#relaks {
+  a {
+    color: #cd2027;
+    &:hover {
+      color: #cd2027;
+    }
+  }
+  #content .post {
+    .post_headline h2 {
+      color: #cd2027;
+      a {
+        color: #000000;
+        &:hover {
+          background-color: #cd2027;
+          color: #FFF;
+        }
+      }
+    }
+    .post_inner {
+      background-color: #FFF;
+      border-bottom: 3px solid #D8D8D8;
+      a {
+        color: #cd2027;
+        &:hover {
+          background-color: #cd2027;
+          color: #FFF;
+        }
+      }
+      span.ib a:hover, p.author a:hover {
+        background-color: #cd2027;
+        color: #fff;
+      }
+      .read_more a {
+        background: #cd2027 url('../img/arrows.gif') 92% 52% no-repeat;
+        color: #FFF;
+      }
+    }
+  }
+  #sidebar .side_box .side_box_inner {
+    ul {
+      &.popular li a {
+        strong {
+          color: #cd2027;
+        }
+        &:hover strong {
+          background-color: #cd2027;
+          color: #FFF;
+        }
+      }
+      &.tags li a:hover {
+        background-color: #cd2027;
+        color: #FFF;
+      }
+    }
+    .comment_area a:hover {
+      background-color: #cd2027;
+      color: #FFF;
+    }
+  }
+  #content {
+    .post .post_inner .post_meta .categories span.cr a:hover {
+      color: #cd2027;
+      background-color: #fff;
+      text-decoration: none;
+    }
+    .post_links a:hover, .post_links2 a:hover, .single_comment a:hover {
+      background-color: #cd2027;
+      color: #FFF;
+    }
+  }
+  #sidebar .side_box .newsletter form .button, #extra .ideas_top form .button {
+    background: #cd2027;
+  }
+  #content .comment_form form .button .bordered {
+    border-color: #cd2027;
+    background-color: #cd2027;
+    color: #FFF;
+  }
+  #sidebar .side_box .newsletter h3, .navigation li.current a {
+    color: #cd2027;
+  }
+  #item_5 {
+    background-position: -725px 0;
+  }
+  .headerh a {
+    background-position: 0 -113px;
+    
+    @media screen and ( max-width: $smartphone_portrait + px ) {
+        background-position: 0 -79px;
+    }
+  }
+  .illustration_area {
+    background: url('../img/girls.png') -725px 0 no-repeat;
+    display: block;
+    height: 185px;
+    width: 145px;
+    position: absolute;
+    bottom: 39px;
+    left: 0;
+  }
+  #header form .button {
+    border: 1px solid #cd2027;
+    background: #cd2027 url('../img/button_bg_relaks.gif') 0 0 repeat-x;
+  }
+  #related_posts a {
+    &.previous {
+      background-image: url('../img/previous_icon_relaks.gif');
+      left: 12px;
+    }
+    &.next {
+      background-image: url('../img/next_icon_relaks.gif');
+      right: 12px;
+    }
+  }
+  #footer ul li a {
+    color: #cd2027;
+  }
+  #content .pagination {
+    ul li {
+      a {
+        border: 4px solid #ccc;
+        height: 20px;
+      }
+      &.current a, a:hover {
+        border-color: #cd2027;
+        background: #cd2027 !important;
+        color: #FFF;
+      }
+      &.previous a {
+        background: url('../img/previous_icon_small.gif') 9px center no-repeat;
+      }
+      &.next a {
+        background: url('../img/next_icon_small.gif') 91% center no-repeat;
+      }
+    }
+    * {
+      display: block;
+      float: left;
+      color: #cd2027;
+    }
+  }
+}
+
 /*
 #relaks #content .post .post_inner .read_more a {color:#fff;}
 #relaks #content .post .post_inner .read_more a:hover {color:#fff;}
 */
- /*kolorystyka tekstu linku nizej posta*/
-#relaks #content .post .post_inner span.ib a:hover, #relaks #content .post .post_inner p.author a:hover {background-color:#cd2027; color:#fff;}  /*kolorystyka tekstu linku wyzej posta*/ 
-#relaks #content .post .post_inner .read_more a {background:#cd2027 url('../img/arrows.gif') 92% 52% no-repeat; color:#FFF;} /*link czytaj wiecej*/
-#relaks #sidebar .side_box .side_box_inner ul.popular li a strong {color:#cd2027;}
-#relaks #sidebar .side_box .side_box_inner ul.popular li a:hover strong {background-color:#cd2027; color:#FFF;} /*tagi*/
-#relaks #sidebar .side_box .side_box_inner ul.tags li a:hover {background-color:#cd2027; color:#FFF;}
-#relaks #sidebar .side_box .side_box_inner .comment_area a:hover {background-color:#cd2027; color:#FFF;}
+/*kolorystyka tekstu linku nizej posta*/
+/*kolorystyka tekstu linku wyzej posta*/
+/*link czytaj wiecej*/
 
-#relaks #content .post .post_inner .post_meta .categories span.cr a:hover {color:#cd2027; background-color:#fff; text-decoration:none;}
+/*tagi*/
 
-#relaks #content .post_links a:hover, #relaks #content .post_links2 a:hover {background-color:#cd2027; color:#FFF;}
-#relaks #content .single_comment a:hover {background-color:#cd2027; color:#FFF;}	/*linki w komentarzach*/
+/*linki w komentarzach*/
 
-#relaks #sidebar .side_box .newsletter form .button {background:#cd2027;} 	/*newsletter zapisz sie button*/
-#relaks #extra .ideas_top form .button {background:#cd2027;} /*szukaj button*/
-#relaks #content .comment_form form .button .bordered {border-color:#cd2027; background-color:#cd2027; color:#FFF;} /*button dodaj komentarz*/
-#relaks #sidebar .side_box .newsletter h3 {color:#cd2027;} /*napis newsletter*/
+/*newsletter zapisz sie button*/
+/*szukaj button*/
+/*button dodaj komentarz*/
+/*napis newsletter*/
 
-#relaks .navigation li.current a { color:#cd2027; } /*wybrany link aktywnej strony*/
-#relaks #item_5 {background-position:-725px 0;} /*obrazek kobiety dolaczony do linku*/
-#relaks .headerh a {text-indent:-9999px; background:url('../img/blogloga.png') 0 -113px no-repeat;} /*logo dolaczone do linku*/
-#relaks .illustration_area {background:url('../img/girls.png') -725px 0  no-repeat; display:block; height:185px; width:145px; position:absolute; bottom:39px; left:0;} /*obrazek dolaczony do linku*/
+/*wybrany link aktywnej strony*/
+/*obrazek kobiety dolaczony do linku*/
+/*logo dolaczone do linku*/
+/*obrazek dolaczony do linku*/
 
-#relaks #header form .button {border:1px solid #cd2027; background:#cd2027 url('../img/button_bg_relaks.gif') 0 0 repeat-x; } /*button szukaj*/
+/*button szukaj*/
 
-#relaks #related_posts a.previous {background-image:url('../img/previous_icon_relaks.gif'); left:12px;} 
-#relaks #related_posts a.next     {background-image:url('../img/next_icon_relaks.gif'); right:12px;}    /*slider strzalki*/
-#relaks #footer ul li a {color:#cd2027;} /*stopka kolory linkow*/
-
-#relaks #content .pagination ul li a {
-	border:4px solid #ccc;
-	height:20px;
-}
-#relaks #content .pagination ul li.current a, #relaks #content .pagination ul li a:hover {
-	border-color:#cd2027;
-	background:#cd2027 !important;
-	color:#FFF;
-}
-#relaks #content .pagination ul li.previous a {background:url('../img/previous_icon_small.gif') 9px center no-repeat;}
-#relaks #content .pagination ul li.next a {background:url('../img/next_icon_small.gif') 91% center no-repeat;}
-#relaks #content .pagination * {
-	display:block;
-	float:left;
-	color:#cd2027;
-}
+/*slider strzalki*/
+/*stopka kolory linkow*/

@@ -1,44 +1,167 @@
 /****************************************************************************************/
 /* Blog GADŻETY | kolor główny: #25AAE1 #gadzety*/
-#gadzety a, #gadzety a:hover {color:#25AAE1;}
-#gadzety #content .post .post_headline h2 {color:#25AAE1;}
-#gadzety #content .post .post_headline h2 a {color:#000000;}
-#gadzety #content .post .post_headline h2 a:hover {background-color:#25AAE1; color:#FFF;}
-#gadzety #content .post .post_inner {background-color:#FFF; border-bottom:3px solid #D8D8D8;}
-#gadzety #content .post .post_inner a {color:#25AAE1;}
-#gadzety #content .post .post_inner a:hover {background-color:#25AAE1; color:#FFF;}
+
+#gadzety {
+  a {
+    color: #25AAE1;
+    &:hover {
+      color: #25AAE1;
+    }
+  }
+  #content .post {
+    .post_headline h2 {
+      color: #25AAE1;
+      a {
+        color: #000000;
+        &:hover {
+          background-color: #25AAE1;
+          color: #FFF;
+        }
+      }
+    }
+    .post_inner {
+      background-color: #FFF;
+      border-bottom: 3px solid #D8D8D8;
+      a {
+        color: #25AAE1;
+        &:hover {
+          background-color: #25AAE1;
+          color: #FFF;
+        }
+      }
+      span.ib a:hover, p.author a:hover {
+        background-color: #25AAE1;
+        color: #fff;
+      }
+      .read_more a {
+        background: #25AAE1 url('../img/arrows.gif') 92% 52% no-repeat;
+        color: #FFF;
+      }
+    }
+  }
+  #sidebar .side_box .side_box_inner {
+    ul {
+      &.popular li a {
+        strong {
+          color: #25AAE1;
+        }
+        &:hover strong {
+          background-color: #25AAE1;
+          color: #FFF;
+        }
+      }
+      &.tags li a:hover {
+        background-color: #25AAE1;
+        color: #FFF;
+      }
+    }
+    .comment_area a:hover {
+      background-color: #25AAE1;
+      color: #FFF;
+    }
+  }
+  #content {
+    .post .post_inner .post_meta .categories span.cr a:hover {
+      color: #25AAE1;
+      background-color: #fff;
+      text-decoration: none;
+    }
+    .post_links a:hover, .post_links2 a:hover, .single_comment a:hover {
+      background-color: #25AAE1;
+      color: #FFF;
+    }
+  }
+  #sidebar .side_box .newsletter form .button, #extra .ideas_top form .button {
+    background: #25AAE1;
+  }
+  #content .comment_form form .button .bordered {
+    border-color: #25AAE1;
+    background-color: #25AAE1;
+    color: #FFF;
+  }
+  #sidebar .side_box .newsletter h3, .navigation li.current a {
+    color: #25AAE1;
+  }
+  #item_8 {
+    background-position: -290px -185px;
+  }
+  .headerh a {
+    background-position: 0 0;
+  }
+  .illustration_area {
+    background: url('../img/girls.png') -290px -185px no-repeat;
+    display: block;
+    height: 185px;
+    width: 145px;
+    position: absolute;
+    bottom: 39px;
+    left: 0;
+  }
+  #header form .button {
+    border: 1px solid #25AAE1;
+    background: #25AAE1 url('../img/button_bg_gadzety.gif') 0 0 repeat-x;
+  }
+  #related_posts a {
+    &.previous {
+      background-image: url('../img/previous_icon_gadzety.gif');
+      left: 12px;
+    }
+    &.next {
+      background-image: url('../img/next_icon_gadzety.gif');
+      right: 12px;
+    }
+  }
+  #footer ul li a {
+    color: #25AAE1;
+  }
+  #content .pagination {
+    ul li {
+      &.current a, a:hover {
+        border-color: #25AAE1;
+        background: #25AAE1 !important;
+        color: #FFF;
+      }
+      &.previous a {
+        background: url('../img/previous_icon_small.gif') 9px center no-repeat;
+      }
+      &.next a {
+        background: url('../img/next_icon_small.gif') 91% center no-repeat;
+      }
+    }
+    * {
+      display: block;
+      float: left;
+      color: #25AAE1;
+    }
+  }
+}
+
 /*
 #gadzety #content .post .post_inner .read_more a {color:#fff;}
 #gadzety #content .post .post_inner .read_more a:hover {color:#fff;}
 */
- /*kolorystyka tekstu linku nizej posta*/
-#gadzety #content .post .post_inner span.ib a:hover, #gadzety #content .post .post_inner p.author a:hover {background-color:#25AAE1; color:#fff;}  /*kolorystyka tekstu linku wyzej posta*/ 
-#gadzety #content .post .post_inner .read_more a {background:#25AAE1 url('../img/arrows.gif') 92% 52% no-repeat; color:#FFF;} /*link czytaj wiecej*/
-#gadzety #sidebar .side_box .side_box_inner ul.popular li a strong {color:#25AAE1;}
-#gadzety #sidebar .side_box .side_box_inner ul.popular li a:hover strong {background-color:#25AAE1; color:#FFF;} /*tagi*/
-#gadzety #sidebar .side_box .side_box_inner ul.tags li a:hover {background-color:#25AAE1; color:#FFF;}
-#gadzety #sidebar .side_box .side_box_inner .comment_area a:hover {background-color:#25AAE1; color:#FFF;}
+/*kolorystyka tekstu linku nizej posta*/
+/*kolorystyka tekstu linku wyzej posta*/
+/*link czytaj wiecej*/
 
-#gadzety #content .post .post_inner .post_meta .categories span.cr a:hover {color:#25AAE1; background-color:#fff; text-decoration:none;}
+/*tagi*/
 
-#gadzety #content .post_links a:hover, #gadzety #content .post_links2 a:hover {background-color:#25AAE1; color:#FFF;}
-#gadzety #content .single_comment a:hover {background-color:#25AAE1; color:#FFF;}	/*linki w komentarzach*/
+/*linki w komentarzach*/
 
-#gadzety #sidebar .side_box .newsletter form .button {background:#25AAE1;} 	/*newsletter zapisz sie button*/
-#gadzety #extra .ideas_top form .button {background:#25AAE1;} /*szukaj button*/
-#gadzety #content .comment_form form .button .bordered {border-color:#25AAE1; background-color:#25AAE1; color:#FFF;} /*button dodaj komentarz*/
-#gadzety #sidebar .side_box .newsletter h3 {color:#25AAE1;} /*napis newsletter*/
+/*newsletter zapisz sie button*/
+/*szukaj button*/
+/*button dodaj komentarz*/
+/*napis newsletter*/
 
-#gadzety .navigation li.current a { color:#25AAE1; } /*wybrany link aktywnej strony*/
-#gadzety #item_8 {background-position:-290px -185px;} /*obrazek kobiety dolaczony do linku*/
-#gadzety .headerh a {text-indent:-9999px; background:url('../img/blogloga.png') 0 0 no-repeat;} /*logo dolaczone do linku*/
-#gadzety .illustration_area {background:url('../img/girls.png') -290px -185px no-repeat; display:block; height:185px; width:145px; position:absolute; bottom:39px; left:0;} /*obrazek dolaczony do linku*/
+/*wybrany link aktywnej strony*/
+/*obrazek kobiety dolaczony do linku*/
+/*logo dolaczone do linku*/
+/*obrazek dolaczony do linku*/
 
-#gadzety #header form .button {border:1px solid #25AAE1; background:#25AAE1 url('../img/button_bg_gadzety.gif') 0 0 repeat-x; } /*button szukaj*/
+/*button szukaj*/
 
-#gadzety #related_posts a.previous {background-image:url('../img/previous_icon_gadzety.gif'); left:12px;} 
-#gadzety #related_posts a.next     {background-image:url('../img/next_icon_gadzety.gif'); right:12px;}    /*slider strzalki*/
-#gadzety #footer ul li a {color:#25AAE1;} /*stopka kolory linkow*/
+/*slider strzalki*/
+/*stopka kolory linkow*/
 
 /*
 #gadzety #content .pagination ul li a {
@@ -46,15 +169,3 @@
 	//height:20px;
 }
 */
-#gadzety #content .pagination ul li.current a, #gadzety #content .pagination ul li a:hover {
-	border-color:#25AAE1;
-	background:#25AAE1 !important;
-	color:#FFF;
-}
-#gadzety #content .pagination ul li.previous a {background:url('../img/previous_icon_small.gif') 9px center no-repeat;}
-#gadzety #content .pagination ul li.next a {background:url('../img/next_icon_small.gif') 91% center no-repeat;}
-#gadzety #content .pagination * {
-	display:block;
-	float:left;
-	color:#25AAE1;
-}

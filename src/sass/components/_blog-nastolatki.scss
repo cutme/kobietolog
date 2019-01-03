@@ -1,44 +1,172 @@
 /****************************************************************************************/
 /* Blog NASTOLATKI | kolor główny: #4e7eab #nastolatki*/
-#nastolatki a, #nastolatki a:hover {color:#4e7eab;}
-#nastolatki #content .post .post_headline h2 {color:#4e7eab;}
-#nastolatki #content .post .post_headline h2 a {color:#000000;}
-#nastolatki #content .post .post_headline h2 a:hover {background-color:#4e7eab; color:#FFF;}
-#nastolatki #content .post .post_inner {background-color:#FFF; border-bottom:3px solid #D8D8D8;}
-#nastolatki #content .post .post_inner a {color:#4e7eab;}
-#nastolatki #content .post .post_inner a:hover {background-color:#4e7eab; color:#FFF;}
+
+#nastolatki {
+  a {
+    color: #4e7eab;
+    &:hover {
+      color: #4e7eab;
+    }
+  }
+  #content .post {
+    .post_headline h2 {
+      color: #4e7eab;
+      a {
+        color: #000000;
+        &:hover {
+          background-color: #4e7eab;
+          color: #FFF;
+        }
+      }
+    }
+    .post_inner {
+      background-color: #FFF;
+      border-bottom: 3px solid #D8D8D8;
+      a {
+        color: #4e7eab;
+        &:hover {
+          background-color: #4e7eab;
+          color: #FFF;
+        }
+      }
+      span.ib a:hover, p.author a:hover {
+        background-color: #4e7eab;
+        color: #fff;
+      }
+      .read_more a {
+        background: #4e7eab url('../img/arrows.gif') 92% 52% no-repeat;
+        color: #FFF;
+      }
+    }
+  }
+  #sidebar .side_box .side_box_inner {
+    ul {
+      &.popular li a {
+        strong {
+          color: #4e7eab;
+        }
+        &:hover strong {
+          background-color: #4e7eab;
+          color: #FFF;
+        }
+      }
+      &.tags li a:hover {
+        background-color: #4e7eab;
+        color: #FFF;
+      }
+    }
+    .comment_area a:hover {
+      background-color: #4e7eab;
+      color: #FFF;
+    }
+  }
+  #content {
+    .post .post_inner .post_meta .categories span.cr a:hover {
+      color: #4e7eab;
+      background-color: #fff;
+      text-decoration: none;
+    }
+    .post_links a:hover, .post_links2 a:hover, .single_comment a:hover {
+      background-color: #4e7eab;
+      color: #FFF;
+    }
+  }
+  #sidebar .side_box .newsletter form .button, #extra .ideas_top form .button {
+    background: #4e7eab;
+  }
+  #content .comment_form form .button .bordered {
+    border-color: #4e7eab;
+    background-color: #4e7eab;
+    color: #FFF;
+  }
+  #sidebar .side_box .newsletter h3, .navigation li.current a {
+    color: #4e7eab;
+  }
+  #item_4 {
+    background-position: -580px 0;
+  }
+  .headerh a {
+    background-position: 0 -226px;
+    
+    @media screen and ( max-width: $smartphone_portrait + px ) {
+        background-position: 0 -170px;
+        height: 38px; 
+    }
+  }
+  .illustration_area {
+    background: url('../img/girls.png') -580px 0 no-repeat;
+    display: block;
+    height: 185px;
+    width: 145px;
+    position: absolute;
+    bottom: 39px;
+    left: 0;
+  }
+  #header form .button {
+    border: 1px solid #4e7eab;
+    background: #4e7eab url('../img/button_bg_nastolatki.gif') 0 0 repeat-x;
+  }
+  #related_posts a {
+    &.previous {
+      background-image: url('../img/previous_icon_nastolatki.gif');
+      left: 12px;
+    }
+    &.next {
+      background-image: url('../img/next_icon_nastolatki.gif');
+      right: 12px;
+    }
+  }
+  #footer ul li a {
+    color: #4e7eab;
+  }
+  #content .pagination {
+    ul li {
+      &.current a, a:hover {
+        border-color: #4e7eab;
+        background: #4e7eab !important;
+        color: #FFF;
+      }
+      &.previous a {
+        background: url('../img/previous_icon_small.gif') 9px center no-repeat;
+      }
+      &.next a {
+        background: url('../img/next_icon_small.gif') 91% center no-repeat;
+      }
+    }
+    * {
+      display: block;
+      float: left;
+      color: #4e7eab;
+    }
+  }
+}
+
 /*
 #nastolatki #content .post .post_inner .read_more a {color:#fff;}
 #nastolatki #content .post .post_inner .read_more a:hover {color:#fff;}
 */
- /*kolorystyka tekstu linku nizej posta*/
-#nastolatki #content .post .post_inner span.ib a:hover, #nastolatki #content .post .post_inner p.author a:hover {background-color:#4e7eab; color:#fff;}  /*kolorystyka tekstu linku wyzej posta*/ 
-#nastolatki #content .post .post_inner .read_more a {background:#4e7eab url('../img/arrows.gif') 92% 52% no-repeat; color:#FFF;} /*link czytaj wiecej*/
-#nastolatki #sidebar .side_box .side_box_inner ul.popular li a strong {color:#4e7eab;}
-#nastolatki #sidebar .side_box .side_box_inner ul.popular li a:hover strong {background-color:#4e7eab; color:#FFF;} /*tagi*/
-#nastolatki #sidebar .side_box .side_box_inner ul.tags li a:hover {background-color:#4e7eab; color:#FFF;}
-#nastolatki #sidebar .side_box .side_box_inner .comment_area a:hover {background-color:#4e7eab; color:#FFF;}
+/*kolorystyka tekstu linku nizej posta*/
+/*kolorystyka tekstu linku wyzej posta*/
+/*link czytaj wiecej*/
 
-#nastolatki #content .post .post_inner .post_meta .categories span.cr a:hover {color:#4e7eab; background-color:#fff; text-decoration:none;}
+/*tagi*/
 
-#nastolatki #content .post_links a:hover, #nastolatki #content .post_links2 a:hover {background-color:#4e7eab; color:#FFF;}
-#nastolatki #content .single_comment a:hover {background-color:#4e7eab; color:#FFF;}	/*linki w komentarzach*/
+/*linki w komentarzach*/
 
-#nastolatki #sidebar .side_box .newsletter form .button {background:#4e7eab;} 	/*newsletter zapisz sie button*/
-#nastolatki #extra .ideas_top form .button {background:#4e7eab;} /*szukaj button*/
-#nastolatki #content .comment_form form .button .bordered {border-color:#4e7eab; background-color:#4e7eab; color:#FFF;} /*button dodaj komentarz*/
-#nastolatki #sidebar .side_box .newsletter h3 {color:#4e7eab;} /*napis newsletter*/
+/*newsletter zapisz sie button*/
+/*szukaj button*/
+/*button dodaj komentarz*/
+/*napis newsletter*/
 
-#nastolatki .navigation li.current a { color:#4e7eab; } /*wybrany link aktywnej strony*/
-#nastolatki #item_4 {background-position:-580px 0;} /*obrazek kobiety dolaczony do linku*/
-#nastolatki .headerh a {text-indent:-9999px; background:url('../img/blogloga.png') 0 -226px no-repeat;} /*logo dolaczone do linku*/
-#nastolatki .illustration_area {background:url('../img/girls.png') -580px 0  no-repeat; display:block; height:185px; width:145px; position:absolute; bottom:39px; left:0;} /*obrazek dolaczony do linku*/
+/*wybrany link aktywnej strony*/
+/*obrazek kobiety dolaczony do linku*/
+/*logo dolaczone do linku*/
+/*obrazek dolaczony do linku*/
 
-#nastolatki #header form .button {border:1px solid #4e7eab; background:#4e7eab url('../img/button_bg_nastolatki.gif') 0 0 repeat-x; } /*button szukaj*/
+/*button szukaj*/
 
-#nastolatki #related_posts a.previous {background-image:url('../img/previous_icon_nastolatki.gif'); left:12px;} 
-#nastolatki #related_posts a.next     {background-image:url('../img/next_icon_nastolatki.gif'); right:12px;}    /*slider strzalki*/
-#nastolatki #footer ul li a {color:#4e7eab;} /*stopka kolory linkow*/
+/*slider strzalki*/
+/*stopka kolory linkow*/
 
 /*
 #nastolatki #content .pagination ul li a {
@@ -46,15 +174,3 @@
 	//height:20px;
 }
 */
-#nastolatki #content .pagination ul li.current a, #nastolatki #content .pagination ul li a:hover {
-	border-color:#4e7eab;
-	background:#4e7eab !important;
-	color:#FFF;
-}
-#nastolatki #content .pagination ul li.previous a {background:url('../img/previous_icon_small.gif') 9px center no-repeat;}
-#nastolatki #content .pagination ul li.next a {background:url('../img/next_icon_small.gif') 91% center no-repeat;}
-#nastolatki #content .pagination * {
-	display:block;
-	float:left;
-	color:#4e7eab;
-}
