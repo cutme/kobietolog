@@ -3,6 +3,9 @@ const disableBodyScroll = bodyScrollLock.disableBodyScroll;
 const enableBodyScroll = bodyScrollLock.enableBodyScroll;
 
 document.addEventListener('DOMContentLoaded',function() {
+
+    
+
     
     const header = document.getElementById('header');
     const navigation = document.getElementsByClassName('navigation')[0];

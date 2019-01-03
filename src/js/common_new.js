@@ -3,6 +3,15 @@ window.$ = window.jQuery = $;
 import 'slick-carousel'
 import css from '../../node_modules/slick-carousel/slick/slick.scss';
 
+
+// Replace string
+var p = document.getElementsByTagName('p');
+
+Array.prototype.forEach.call(p, function(el) {
+  el.innerHTML = el.innerHTML.replace(/#;/gi, ' ');
+});
+
+
 $(document).ready(function() {
 
 
