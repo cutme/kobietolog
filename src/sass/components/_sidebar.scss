@@ -171,6 +171,7 @@
                 
                 a {
                     @extend %flex;
+                    @extend %flex-wrap;
                     
                     //display: block;
                     margin-bottom: 10px;
@@ -182,11 +183,12 @@
                         //float: left;
                         padding: 1px;
                         border: 1px solid #D8D8D8;
-                        margin-right: 10px;
+                        margin: 0 10px 10px 0;
                         //margin: 0 10px 10px 0;
                     }
                     
                     strong {
+                        flex: 1;
                         align-self: baseline;
                         //display: block;
                         //float: left;

@@ -24,7 +24,7 @@
             text-decoration: none;
         }
     }
-    
+
     .viewport {
         @extend %rel;
         background-color: #EEE;
@@ -86,6 +86,7 @@ position: absolute;
                 
                
                 img {
+                    flex-shrink: 0;
                     //margin-right: 10px;
                 }
 
