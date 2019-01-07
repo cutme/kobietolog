@@ -2,14 +2,15 @@
 
 #content {
     .wyszukiwanie {
+        @include clear;
         padding: 0 0 20px;
         margin-bottom: 20px;
-        height: 20px;
+        //height: 20px;
         border-bottom: 1px dashed #CACAB8;
     
         * {
             display: block;
-            float: left;
+            //float: left;
         }
     
         h1 {
