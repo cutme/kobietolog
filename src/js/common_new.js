@@ -4,21 +4,23 @@ import 'slick-carousel'
 import css from '../../node_modules/slick-carousel/slick/slick.scss';
 
 
-// Replace string
-let p = document.getElementsByTagName('p');
 
-Array.prototype.forEach.call(p, function(el) {
-  el.innerHTML = el.innerHTML.replace(/#;/gi, ' ');
-});
-
-// Remove style attribute from ul tags
-let ul = document.getElementsByTagName('ul');
-
-for (let i = 0; i < ul.length; i ++) {
-    ul[i].removeAttribute('style');
-}
 
 $(document).ready(function() {
+
+    // Replace string
+    let p = document.getElementsByTagName('p');
+    
+    Array.prototype.forEach.call(p, function(el) {
+      el.innerHTML = el.innerHTML.replace(/#;/gi, ' ');
+    });
+    
+    // Remove style attribute from ul tags
+    let ul = document.getElementsByTagName('ul');
+    
+    for (let i = 0; i < ul.length; i ++) {
+        ul[i].removeAttribute('style');
+    }
 
 
     $("#related_posts .viewport ul").slick({
